@@ -13,7 +13,7 @@
   display: flex;
 }
 
-#room header .buttons .button:n {
+#room header .buttons .button:nth-child(1) {
   margin-right: 0.8rem;
   padding: 1.3rem 1.6rem;
 }

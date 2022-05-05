@@ -7,6 +7,7 @@
     <title>erguntas e Respostas - Rocket.Q</title>
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/room.css" />
+    <link rel="stylesheet" href="./styles/modal.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -143,6 +144,31 @@
           </div>
         </section>
       </main>
+    </div>
+
+    <!-- -----MODAL----- -->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir Pergunta</h2>
+        <p>Tem certeza que você deseja exluir esta pergunta ?</p>
+
+        <form action="">
+          <label class="sr-only" for-id="password"
+            >Digite sua senha admin</label
+          >
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Digite sua senha"
+          />
+
+          <div class="buttons">
+            <div class="button grey">Cancelar</div>
+            <button class="red">Sim, excluir</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
