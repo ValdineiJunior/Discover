@@ -16,7 +16,7 @@ header {
   grid-area: left;
 
   background: url('../assets/home-bg-image.svg') no-repeat top/contain;
-  background-position-x: -10rem;
+  background-position-x: -1rem;
 }
 
 main {
@@ -91,7 +91,7 @@ input, button, .button {
   height: 63.3rem;
 }
 
-.ball.botton {
+.ball.bottom {
   bottom: -15rem;
   right: 5.6rem;
 }
