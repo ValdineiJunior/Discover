@@ -1,0 +1,27 @@
+{
+  "name": "discover",
+  "version": "1.0.0",
+  "description": "Projeto para gerenciar perguntas anônimas",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValdineiJunior/discover.git"
+  },
+  "keywords": [],
+  "author": "Valdinei de Paula Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValdineiJunior/discover/issues"
+  },
+  "homepage": "https://github.com/ValdineiJunior/discover#readme",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
